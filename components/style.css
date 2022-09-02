@@ -334,6 +334,67 @@ img {
 }
 
 /* Skills */
+.skills__container {
+  row-gap: 2rem;
+}
+
+.skills__subtitle {
+  font-size: var(--h3-font-size);
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-2);
+}
+
+.skills__data {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 var(--mb-2);
+  margin-bottom: var(--mb-4);
+}
+
+.skills__name {
+  text-transform: uppercase;
+}
+
+.skills__bar {
+  position: absolute;
+  bottom: -0.75rem;
+  height: 0.25rem;
+  background-color: var(--first-color);
+}
+
+.skills__html {
+  width: 80%;
+}
+
+.skills__css {
+  width: 80%;
+}
+
+.skills__js {
+  width: 70%;
+}
+
+.skills__react {
+  width: 60%;
+}
+
+.skills__java {
+  width: 80%;
+}
+
+.skills__python {
+  width: 60%;
+}
+
+.skills__sql {
+  width: 80%;
+}
+
+.skills__node {
+  width: 60%;
+}
+
 
 /* Education */
 
